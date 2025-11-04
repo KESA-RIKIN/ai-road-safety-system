@@ -1,0 +1,63 @@
+{
+  "name": "hazard-detection-mobile",
+  "version": "1.0.0",
+  "description": "AI-based road hazard detection mobile app",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:android": "expo build:android",
+    "build:ios": "expo build:ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-screens": "~3.22.0",
+    "react-native-safe-area-context": "4.6.3",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-reanimated": "~3.3.0",
+    "expo-camera": "~13.4.4",
+    "expo-location": "~16.1.0",
+    "expo-sensors": "~12.4.0",
+    "expo-av": "~13.4.1",
+    "expo-speech": "~11.3.0",
+    "expo-notifications": "~0.20.1",
+    "expo-permissions": "~14.2.1",
+    "react-native-maps": "1.7.1",
+    "react-native-vector-icons": "^10.0.0",
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "axios": "^1.5.0",
+    "socket.io-client": "^4.7.2",
+    "react-native-svg": "13.9.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-modal": "^13.0.1",
+    "react-native-paper": "^5.10.6",
+    "react-native-elements": "^3.4.3",
+    "react-native-ble-plx": "^3.1.2",
+    "react-native-sound": "^0.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.72.2",
+    "typescript": "^5.1.3"
+  },
+  "keywords": [
+    "hazard-detection",
+    "ai",
+    "road-safety",
+    "react-native",
+    "expo"
+  ],
+  "author": "Hackathon Team",
+  "license": "MIT",
+  "private": true
+}

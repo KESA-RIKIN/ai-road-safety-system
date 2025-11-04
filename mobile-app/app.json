@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "Hazard Detection",
+    "slug": "hazard-detection",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hazarddetection.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to detect road hazards in real-time.",
+        "NSLocationWhenInUseUsageDescription": "This app uses location to provide hazard alerts and route information.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone to detect audio patterns associated with road hazards.",
+        "NSMotionUsageDescription": "This app uses motion sensors to detect impacts and vibrations from road hazards."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hazarddetection.app",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECORD_AUDIO",
+        "VIBRATE",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Hazard Detection to access your camera to detect road hazards."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Hazard Detection to use your location to provide hazard alerts and route information."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
